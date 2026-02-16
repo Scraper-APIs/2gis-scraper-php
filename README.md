@@ -1,5 +1,7 @@
 # 2GIS Scraper PHP
 
+**English** | [Русский](https://github.com/Scraper-APIs/2gis-parser-php)
+
 A PHP client library for scraping data from [2GIS](https://2gis.ru) — the largest business directory and map service across Russia, Central Asia, and the Middle East. Extract places, reviews, real estate listings, and job vacancies with typed DTOs.
 
 Powered by [Apify](https://apify.com/) actors under the hood.
