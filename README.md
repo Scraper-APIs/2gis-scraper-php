@@ -320,15 +320,11 @@ use TwoGisParser\Config;
 // Simple — just pass the API token
 $client = new Client('your_apify_api_token');
 
-// Advanced — override actor IDs, timeout, or base URL
+// Advanced — override timeout or base URL
 $client = new Client('token', new Config(
     apiToken: 'token',
-    placesActorId: 'zen-studio/2gis-places-scraper-api',
-    reviewsActorId: 'zen-studio/2gis-reviews-scraper',
-    propertyActorId: 'zen-studio/2gis-property-scraper',
-    jobsActorId: 'zen-studio/2gis-jobs-scraper',
     baseUrl: 'https://api.apify.com/v2',
-    timeout: 900,
+    timeout: 600,
 ));
 ```
 
