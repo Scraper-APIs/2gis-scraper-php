@@ -9,7 +9,7 @@ Powered by [Apify](https://apify.com/) actors under the hood.
 ## Installation
 
 ```bash
-composer require scraper-apis/2gis-parser
+composer require scraper-apis/2gis-scraper
 ```
 
 ## Quick Start
