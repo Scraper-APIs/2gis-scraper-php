@@ -1,5 +1,5 @@
 {
-    "name": "scraper-apis/2gis-parser",
+    "name": "scraper-apis/2gis-scraper",
     "description": "PHP client library for scraping 2GIS data (places, reviews, property, jobs) using Apify actors",
     "type": "library",
     "license": "MIT",
