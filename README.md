@@ -125,6 +125,7 @@ $reviews = $client->scrapeReviews(
         '70000001057394704',  // plain branch ID also works
     ],
     maxReviews: 500,
+    maxPlaces: 5,
     reviewsRating: ReviewsRating::Negative,
     reviewsSource: ReviewsSource::TwoGis,
     options: [
@@ -232,8 +233,9 @@ Scrape job vacancies from 2GIS by city. Supports filtering by 224 job categories
 $jobs = $client->scrapeJobs(
     location: 'Novosibirsk',
     maxResults: 300,
-    salaryMin: 80000,
     categoryId: '200',  // Developer
+    salaryMin: 80000,
+    salaryMax: 250000,
 );
 
 foreach ($jobs as $job) {
