@@ -222,6 +222,8 @@ $property->getCoordinates();    // ['lat' => float, 'lng' => float] or null
 $property->getPriceFormatted(); // "1,500,000 RUB" or null
 ```
 
+**Tip:** Need more data? Check our [Yandex Scraper](https://github.com/Scraper-APIs/yandex-scraper-php) for places and reviews from Yandex Maps, products from Yandex Market, real estate listings from Yandex Realty. All in one, for peace of mind.
+
 ### 4. Jobs / Vacancies
 
 Scrape job vacancies from 2GIS by city. Supports filtering by 224 job categories and salary range.
